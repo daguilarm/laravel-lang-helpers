@@ -1,0 +1,39 @@
+{
+    "name": "daguilarm/laravel-lang-helpers",
+    "description": "Helpers for Laravel localization",
+    "keywords": ["framework", "laravel", "language", "localization"],
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "daguilarm",
+            "email": "damian.aguilarm@gmail.com",
+            "homepage": "https://daguilar.dev",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://github.com/daguilarm/laravel-lang-helpers",
+    "autoload": {
+        "psr-4": {
+            "Daguilarm\\Lang\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+          "Daguilarm\\Lang\\Tests\\": "tests/"
+        }
+      },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Daguilarm\\Lang\\ServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php" : "^7.4",
+        "illuminate/support": "^8.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

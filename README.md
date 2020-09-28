@@ -1,2 +1,2 @@
 # laravel-lang-helpers
-Helpers for Laravel language
+Helpers for Laravel localization
