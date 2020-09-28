@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Daguilarm\Lang;
 
+use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider as Provider;
 
 final class ServiceProvider extends Provider
